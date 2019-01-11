@@ -6,10 +6,11 @@ namespace hwOOP2
 {
     interface IMammal
     {
-        void Moves();
+       
+        void Moves(string mammalName, int speed);
 
-        void Sleeps();
+        void Sleeps(string mammalName, int hours);
 
-        void Eats(string food);
+        void Eats(string mammalName, string food);
     }
 }
